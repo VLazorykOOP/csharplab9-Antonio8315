@@ -31,8 +31,8 @@ namespace Task_3
             File.WriteAllText(fileName, text, Encoding.UTF8);
 
             string content = File.ReadAllText(fileName, Encoding.UTF8);
-            char[] vowels = { 'a', 'e', 'o', 'i', 'y',
-                          'A', 'E', 'O', 'I', 'Y' };
+            char[] vowels = { 'a', 'e', 'o', 'i', 'y', 'u',
+                          'A', 'E', 'O', 'I', 'Y', 'U' };
 
             VowelList vowelList = new VowelList();
             foreach (char c in content)

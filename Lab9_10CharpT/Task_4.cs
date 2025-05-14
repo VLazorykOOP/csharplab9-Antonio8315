@@ -38,8 +38,8 @@ namespace Task_4
         public void main4()
         {
             string fileName = "C:/Users/Smart/OneDrive/Робочий стіл/C#/csharplab9-Antonio8315/Lab9_10CharpT/FilesTask3/numbers.txt";
-            int a = 10, b = 20;
-            File.WriteAllText(fileName, "5 12 25 8 10 15 3 22 18 30");
+            int a = 20, b = 30;
+            File.WriteAllText(fileName, "100 46 5 12 25 8 10 77 54 15 3 22 11 18 30 44 80 ");
 
             string[] tokens = File.ReadAllText(fileName).Split(new[] { ' ', '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
 

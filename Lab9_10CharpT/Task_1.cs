@@ -19,8 +19,8 @@ namespace Task_1
             // Зчитуємо текст з файлу
             string content = File.ReadAllText(fileName, Encoding.UTF8);
 
-            char[] vowels = { 'a', 'e', 'o', 'i', 'y',
-                          'A', 'E', 'O', 'I', 'Y' };
+            char[] vowels = { 'a', 'e', 'o', 'i', 'y', 'u',
+                          'A', 'E', 'O', 'I', 'Y', 'U' };
 
             // Створюємо стек для зберігання голосних
             Stack<char> vowelStack = new Stack<char>();
